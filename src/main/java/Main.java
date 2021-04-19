@@ -6,5 +6,7 @@ public class Main{
         System.out.println(returnOnlyOneThing.saySomething(13, 12));
         returnOnlyOneThing.bookBorrowed();
         System.out.println(returnOnlyOneThing.addSome(1,2));
+        AnotherClassThatNeedsLambda anotherClassThatNeedsLambda = new AnotherClassThatNeedsLambda();
+        System.out.println(anotherClassThatNeedsLambda.findGreaterthanOrEqualTo(returnOnlyOneThing, 5, 5));
     }
 }
